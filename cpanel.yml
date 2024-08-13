@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/bacolma/
+    - export DEPLOYPATH=/home/bacolma1/public_html/bacolma/
     - /bin/rsync -av /home/bacolma1/CIM $DEPLOYPATH
