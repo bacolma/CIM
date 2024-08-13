@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/public_html/bacolma/
+    - /home/bacolma1 -R CIM $DEPLOYPATH
